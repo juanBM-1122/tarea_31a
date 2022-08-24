@@ -1,0 +1,59 @@
+pais{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#264653 0%,#2a9d8f 50%, #e9c46a 100%) no-repeat;
+    display: grid;
+    font-size: 1.5em;
+    color: #e9c46a;
+}
+
+pais[nombre]::before{
+    content: "Pais: "attr(nombre);
+}
+
+departamento[nombre]::before{
+    content: "Departamento: " attr(nombre);
+    font-weight: bold;
+}
+
+departamento{
+    display: inline-grid;
+    width: 50%;
+    height: 250px;
+    margin: 0 auto;
+    float: left;
+    background:#264653;
+    border-radius: 10px;
+    opacity: 0.90;
+    color:#e9c46a;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-align: justify;
+}
+
+cabecera[type]::before{
+    content: attr(type)" : ";
+}
+
+habitantes[type]::before{
+    content:attr(type)" :";
+}
+
+altura[type]::before{
+    content: "Altura: " attr(type);
+}
+
+moneda[type]::before{
+    content: attr(type) " : ";
+}
+codiigotelefonico[type]::before{
+    content: "Codigo telefono: "attr(type);
+}
+
+superficie[type]::before{
+    content: attr(type)" : ";
+}
+
+gentilicio[type]::before{
+    content: attr(type)" : ";
+}

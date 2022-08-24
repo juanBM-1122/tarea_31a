@@ -1,0 +1,59 @@
+fichero{
+    font-family: monospace;
+    background:linear-gradient(rgb(22, 184, 22) 25%,rgb(33, 187, 33) 50%,rgb(19, 150, 19) 75%,rgb(8, 80, 8) 100%) no-repeat;
+    height: 110%;
+    width: 100%;
+    font-size: 2em;
+}
+
+ficha{
+    border-radius: 20px;
+    border: 3px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    width: 75%;
+    padding: 10px;
+    margin: 10px auto;
+    height: auto;
+    justify-content: center;
+    background-color: rgb(47, 155, 47);
+    opacity: 0.9;
+}
+
+nombre::before{
+    content: "Nombre del estudiante:  ";
+}
+
+apellido::before{
+    content: "Apellido del estudiante:  ";
+}
+
+direccion::before{
+    content: "Direccion del estudiante:  ";
+}
+
+correo::before{
+    content: "Correo del estudiante:  ";
+}
+website::before{
+    content: "Informacion:  ";
+}
+
+a{
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+}
+
+a:hover{
+    background-color: black;
+    border: 1px solid gray;
+    color: gray;
+}
+

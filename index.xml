@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicios31a/css-index.css"?>
+<?xml-stylesheet type="text/css" href="ejercicios31a/css/all.min.css"?>
+<!-- ejemplo1.xml  SUCARNET -->
+
+<pizarra_inicio>
+    <cabezera_pizarra>
+        <elemento_cabezera>Uso de XML bien formado para la construcción de páginas web</elemento_cabezera>
+        <elemento_cabezera type="enlace"><a xmlns="http://www.w3.org/1999/xhtml" href="https://bmblackmore.neocities.org/">Visita el otro sitio web!</a></elemento_cabezera>
+    </cabezera_pizarra>
+    <main>
+    <barra_navegacion>
+                <a xmlns="http://www.w3.org/1999/xhtml" href="ejercicios31a/ejemplo1.xml" target="__blank">Ejemplo 1</a>
+                <a xmlns="http://www.w3.org/1999/xhtml" href="ejercicios31a/ejemplo2.xml" target="__blank">Ejemplo 2</a>
+                <a xmlns="http://www.w3.org/1999/xhtml" href="ejercicios31a/ejercicio1a.xml" target="__blank">Ejercicio 1a</a>
+                <a xmlns="http://www.w3.org/1999/xhtml" href="ejercicios31a/ejercicio1b.xml" target="__blank">Ejercicio 1b</a>
+                <a xmlns="http://www.w3.org/1999/xhtml" href="ejercicios31a/ejercicio2a.xml" target="__blank">Ejercicio 2a</a>
+                <a xmlns="http://www.w3.org/1999/xhtml" href="ejercicios31a/ejercicio2b.xml" target="__blank">Ejercicio 2b</a>
+    </barra_navegacion>
+    <contenido>
+            !!Bienvenidos a la entrega 31a semana 5
+    </contenido>
+</main>
+</pizarra_inicio>

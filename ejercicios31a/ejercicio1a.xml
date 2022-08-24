@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio1a.css"?>
+<!-- ejemplo1.xml  SUCARNET -->
+<fichero>
+
+<ficha id="2" fechaingreso="1/01/2019">
+<nombre>Juan Carlos</nombre>
+<apellido>Acosta Escobar</apellido>
+<direccion>La casa del pepe dindo</direccion>
+<correo>email@dominio.com</correo>
+<a xmlns="http://www.w3.org/1999/xhtml" href="https://bmblackmore.neocities.org/">Visite mi web haciendo click aqui</a>
+</ficha>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../index.xml">ir a inicio</a>
+</fichero>

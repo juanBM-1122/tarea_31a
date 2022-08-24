@@ -1,0 +1,15 @@
+pais{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+contenedor_departamentos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+departamento{
+    width: 90%;
+    height: 500px;
+}
+

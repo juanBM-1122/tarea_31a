@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio1a.css"?>
+<?xml-stylesheet type="text/css" href="ejercicio1b.css"?>
+<fichero>
+<ficha id="2" fechaingreso="1/01/2019">
+<nombre>Juan Carlos</nombre>
+<apellido>Acosta Escobar</apellido>
+<direccion>La casa del pepe dindo</direccion>
+<correo>email@dominio.com</correo>
+<a xmlns="http://www.w3.org/1999/xhtml" href="https://bmblackmore.neocities.org/">enlace</a>
+</ficha>
+
+<ficha id="21" fecha_nacimiento="V a.c" id_datos="Datos generales">
+<nombre type="nombre">Juan Carlos</nombre>
+<apellido type="apellido">Acosta Escobar</apellido>
+<dui type="DUI">1213787312-1</dui>
+<isss type="ISSS">1232138989-1</isss>
+<afp type="AFP">f1209901f</afp>
+</ficha>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../index.xml">ir a inicio</a>
+</fichero>

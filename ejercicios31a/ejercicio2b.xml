@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="ejercicio2a.css"?>
+<?xml-stylesheet type="text/css" href="ejercicio2b.css"?>
+<pais nombre="El Salvador">
+
+<contenedor_departamentos>
+  <departamento id="1" nombre="San Salvador">
+  <cabecera>San Salvador</cabecera>
+  <habitantes>1,700,000</habitantes>
+  <altura>545 MSNM</altura>
+  </departamento>
+
+  <departamento id="2" nombre="San Vicente">
+    <cabecera type="cabecera">San Vicente</cabecera>
+    <habitantes type="habitantes">235 205</habitantes>
+    <altura type="altura">161 MSNM</altura>
+    <moneda type="moneda">Dólar</moneda>
+    <codiigotelefonico type="codigo" >503</codiigotelefonico>
+    <superficie type="superficie">1184</superficie>
+    </departamento>
+
+  <departamento id="3" nombre="Sonsonate">  
+  <cabecera type="cabecera">Sonsonate</cabecera>
+  <habitantes type="habitantes">90900</habitantes>
+  <altura type="altura">220 MSNM</altura>
+  <moneda type="moneda">Dólar</moneda>
+  <codiigotelefonico type="">503</codiigotelefonico>
+  <superficie type="superficie">232.53</superficie>
+  <gentilicio type="gentilicio">Sonsonateco</gentilicio>
+  </departamento>
+</contenedor_departamentos>
+<a xmlns="http://www.w3.org/1999/xhtml" href="../index.xml">ir a inicio</a>
+</pais>

@@ -1,0 +1,67 @@
+pizarra_inicio{
+    background: linear-gradient(#adb5bd 0%,#6c757d 20%,#495057 40%,#343a40 60%,#212529 100%);
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+cabezera_pizarra{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: #495057;
+    color: #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+}
+
+elemento_cabecera{
+margin-left: 100px;
+}
+
+a{
+display: inline-block ;
+margin-right: 100px;
+color: #e9ecef;
+text-decoration: none;
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);  
+}
+
+barra_navegacion{
+    background-color: #495057;
+    display: block;
+    margin-top: 1px;
+    height :500px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+barra_navegacion a{
+    width: 96%;
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid #adb5bd;
+    text-align: center;
+}
+
+barra_navegacion  a:hover{
+    background-color: #adb5bd;
+    width: 100%;
+    color: #212529;
+}
+
+contenido{
+    margin:0;
+    padding: 0;
+    font-size: 3em;
+    margin-left: -40%;
+}
