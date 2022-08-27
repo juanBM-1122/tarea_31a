@@ -1,0 +1,47 @@
+{
+	"pais": {
+		"departamento": [
+			{
+				"cabecera": "San Salvador",
+				"habitantes": "1,700,000",
+				"altura": "545 MSNM",
+				"_id": "1",
+				"_nombre": "San Salvador"
+			},
+			{
+				"cabecera": {
+					"_type": "cabecera",
+					"__text": "San Vicente"
+				},
+				"habitantes": {
+					"_type": "habitantes",
+					"__text": "235 205"
+				},
+				"altura": {
+					"_type": "altura",
+					"__text": "161 MSNM"
+				},
+				"moneda": {
+					"_type": "moneda",
+					"__text": "Dólar"
+				},
+				"codiigotelefonico": {
+					"_type": "codigo",
+					"__text": "503"
+				},
+				"superficie": {
+					"_type": "superficie",
+					"__text": "1184"
+				},
+				"_id": "2",
+				"_nombre": "San Vicente"
+			}
+		],
+		"a": {
+			"_xmlns": "http://www.w3.org/1999/xhtml",
+			"_href": "../index.xml",
+			"__text": "ir a inicio"
+		},
+		"_nombre": "El Salvador"
+	}
+}
